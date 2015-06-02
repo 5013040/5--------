@@ -1,17 +1,21 @@
 .header_topline{
-    background-color: green;
+    height:58px;
+    background: url() #32CD32 no-repeat;
 }
 .top_links ul{
-   text-align: center; 
+    padding-top:8px;
+    text-align: center;
 }
 .top_links ul li{
     list-style: none; 
     display: inline-block;
-    padding:23px 15px 23px 0;
+    padding-right:15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    
 }
 .top_links a{
     color:#FFF;
-    font-weight:bold;
     text-transform: uppercase;
     border-bottom: 1px dashed #fff;
 }
@@ -19,4 +23,57 @@
     text-decoration: none;
     border-bottom: none;
     
+}
+header .button{
+    font:bold 15px Arial, Verdana, sans-serif;
+    color:black;
+    background-color: #ffcc00;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    border:none;
+    padding: 10px 15px;
+}
+.header_contact{
+    margin-top:20px;
+}
+.logo{
+    width:100%;
+}
+.fa.fa-map-marker{
+    font-size:45px;
+    float:left;
+    padding:5px;
+    margin-top:10px;
+}
+.adress{
+    padding:5px;
+    font-size:16px;
+    font-weight:bold;
+}
+.header_contact_email{
+    margin-top:50px; 
+    font-size:18px;
+}
+.header_contact_email a{
+    color: #87CEFF;
+}
+.fa.fa-envelope-o{
+    padding-right:5px;
+}
+.header_phone span{
+    font-size:1.4em;
+    padding-right:12px;
+}
+.header_phone a{
+    padding:15px 27px;
+    margin-top:25px;
+}
+.header_main{
+    background-image: url(../img/slide3.jpg);
+    height:380px;
+    width:100%;
+    margin-top:20px;
 }
