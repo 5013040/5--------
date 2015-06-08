@@ -195,12 +195,28 @@ header .button{
     width:940px;
     margin:0 auto;
 }
+.advantage .circle{
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+    margin-left:  800px;
+}
+.advantage .blue_circle{
+    background-color: blue;
+}
+.advantage .green_circle{
+    background-color: darkgreen;
+}
+.advantage .orange_circle{
+    background-color: orange;
+}
 .advantage .icons{
     text-align: center;
 }
-.advantage .icons img{
-    padding-bottom: 1.25em;
-}
+
 .advantage .icons span{
     font-weight: bold;
 }
